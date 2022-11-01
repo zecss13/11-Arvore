@@ -27,8 +27,7 @@ NO* insereArvore(NO* no, int valor);
 NO* criaNO(int valor);
 int elementosArvore(NO* no);
 void exibirElementosArvore(NO* no);
-void buscarElementoArvore(int valor);
-void removerElementoArvore(int valor);
+void buscarElementoArvore(NO* no, int valor);
 //--------------------------
 
 
@@ -40,7 +39,7 @@ int main()
 void menu()
 {
 	int op = 0;
-	while (op != 7) {
+	while (op != 6) {
 		system("cls"); // somente no windows
 		cout << "Menu Arvore";
 		cout << endl << endl;
@@ -67,8 +66,7 @@ void menu()
 			break;
 		case 5: buscar();
 			break;
-		case 6: remover();
-			break;
+		
 
 		default:
 			break;
@@ -117,16 +115,9 @@ void buscar() {
 	int valor;
 	cout << "Digite o elemento: ";
 	cin >> valor;
-	buscarElementoArvore(valor);
+	buscarElementoArvore(raiz, valor);
 }
 
-void remover()
-{
-	int valor;
-	cout << "Digite o elemento: ";
-	cin >> valor;
-	removerElementoArvore(valor);
-}
 
 
 NO* criaNO(int valor)
@@ -184,13 +175,12 @@ void exibirElementosArvore(NO* no)
 
 }
 
-void buscarElementoArvore(int valor)
+void buscarElementoArvore(NO* no, int valor)
 {
+	
 
 }
-void removerElementoArvore(int valor)
-{
 
-}
+
 
 
