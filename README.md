@@ -3,7 +3,7 @@
 
 ## Objetivos
 
-Ao concluir esta atividade você deverá estender sua compreensão o seguinte conceito:
+Ao concluir esta atividade você deverá estender sua compreensão os seguintes conceitos:
 * Recursividade
 * Estrutura de Dados Arvore
 * Arvore Binária
