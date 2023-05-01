@@ -18,7 +18,7 @@ void inserir();
 void exibir();
 void exibirQuantidade();
 void buscar();
-void remover();
+
 
 
 
@@ -48,8 +48,7 @@ void menu()
 		cout << "3 - Inserir elemento \n";
 		cout << "4 - Exibir elementos \n";
 		cout << "5 - Buscar elemento \n";
-		cout << "6 - Remover elemento \n";
-		cout << "7 - Sair \n";
+		cout << "6 - Sair \n";
 
 		cout << "Opcao: ";
 		cin >> op;
@@ -66,7 +65,7 @@ void menu()
 			break;
 		case 5: buscar();
 			break;
-		
+
 
 		default:
 			break;
@@ -180,7 +179,7 @@ void exibirElementosArvore(NO* no)
 
 void buscarElementoArvore(NO* no, int valor)
 {
-	
+
 
 }
 
